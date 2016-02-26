@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Nissan</title>
+
+        <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="js/jquery-ui-1.11.4.custom/jquery-ui.min.css" />
+        <!--[if lt IE 9]>
+            <script src="js/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="js/jquery-1.12.1.min.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/jquery.maskedinput.min.js"></script>
+        <script src="js/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+        <script src="js/jquery-ui-1.11.4.custom/jquery.ui.datepicker-ru.min.js"></script>
+        <script src="js/tools.js"></script>
+
+        <meta name="viewport" content="width=device-width" />
+    </head>
+
+    <body>
+
+        <!-- wrapper -->
+        <div class="wrapper">
+            <form action="confirm.html" method="post">
+
+                <div class="form-title">заполните форму</div>
+                <div class="form-text">и получите 20 баллов</div>
+
+                <div class="form-cols">
+                    <div class="form-col">
+                        <div class="form-input"><input type="text" name="name" value="" class="required" /><span>Имя</span></div>
+                        <div class="form-input"><input type="text" name="lastname" value="" class="required" /><span>Фамилия</span></div>
+                        <div class="form-input"><input type="text" name="email" value="" class="required email" /><span>Электронный адрес</span></div>
+                    </div>
+
+                    <div class="form-col">
+                        <div class="form-input"><input type="text" name="phone" value="" class="required maskPhone" /><span>Телефон</span></div>
+                        <div class="form-input"><input type="text" name="birthdate" value="" class="required datepicker" readonly="readonly" /><span>Дата рождения</span></div>
+                        <div class="form-checkbox"><div><span><input type="checkbox" name="rules" class="required" /></span><a href="#">Я согласен с правилами конкурса и на обработку моих данных</a></div></div>
+                    </div>
+                </div>
+
+                <div class="text-error">Все поля должны быть заполнены</div>
+
+                <div class="form-submit"><input type="submit" value="Отправить" /></div>
+
+            </form>
+        </div>
+        <!-- wrapper END -->
+
+    </body>
+</html>
