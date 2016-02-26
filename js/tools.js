@@ -26,7 +26,7 @@
 
         $('input.maskPhone').mask('+7 (999) 999-99-99');
 
-        $('input.datepicker').datepicker({minDate: "-80Y", maxDate: "-16Y" });
+        $('input.datepicker').datepicker({minDate: "-80Y", maxDate: "-16Y", changeMonth: true, changeYear: true, yearRange: "c-99:c+99"});
         window.setInterval(function() {
             $('input.datepicker').each(function() {
                 if ($(this).val() != '') {
