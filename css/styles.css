@@ -79,9 +79,8 @@ form {display:table-cell; vertical-align:middle; padding:0 9%; margin:0}
 .form-input input.error {border-color:#ce2541}
 .form-input label.error {display:none !important}
 
-.form-checkbox {margin:25px 0 0 0}
-.form-checkbox:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
-.form-checkbox div {float:left; position:relative; padding:0 0 0 52px; color:#7f7f7f; font:24px/29px NissanAGLight, verdana, geneva, sans-serif}
+.form-checkbox {margin:20px 0 0 0; display:table; position:relative}
+.form-checkbox div {display:table-cell; vertical-align:middle; height:70px; padding:0 0 0 52px; color:#7f7f7f; font:24px/29px NissanAGLight, verdana, geneva, sans-serif}
 .form-checkbox div span {position:absolute; left:0; top:50%; margin-top:-16px; display:block; overflow:hidden; width:30px; height:30px; background:#fff; border:1px solid #d8d8d8; cursor:pointer}
 .form-checkbox div span input {position:absolute; left:-99px; top:-99px}
 .form-checkbox div span.checked:after {content:""; display:block; width:20px; height:20px; position:absolute; left:5px; top:5px; background:#d8d8d8}
@@ -92,3 +91,5 @@ form {display:table-cell; vertical-align:middle; padding:0 9%; margin:0}
 .form-submit {margin:40px 0 0 0; text-align:center}
 .form-submit input {vertical-align:top; border:none; background:#ce2541; height:70px; margin:0; padding:0 178px; outline:none; cursor:pointer; color:#fff; text-align:center; text-transform:uppercase; font:22px/70px NissanAGMedium, verdana, geneva, sans-serif; -webkit-appearance:none}
 .form-submit input:hover {background-color:#bb1833}
+
+.text-rules {text-align:center; margin:28px 0}
